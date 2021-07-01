@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "new": "hexo new"
+    "new": "hexo new",
+    "publish": "yarn run clean && yarn run deploy"
   },
   "hexo": {
     "version": "5.4.0"
