@@ -840,7 +840,7 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/yanxiaolazy", tip: "GitHub" }
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/ren-sheng-ji-he-95-52", tip: "知乎" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/gongzhonghao.bmp" }
 
 
 #---------------------------
