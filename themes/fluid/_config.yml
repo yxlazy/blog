@@ -576,10 +576,16 @@ post:
   custom:
     enable: true
     content: '
-    <div class="rounded d-block mx-auto mt-5">
-      <div>
+    <div style="display: flex;justify-content: space-around; align-items: center;">
+      <div style="text-align: center;">
+        <p>关注公众号，随时查看最新资源</p>
+        <img src="/img/gongzhonghao.bmp" style="width:150px;"/>
+        <p>公众号扫码关注</p>
+      </div>
+      <div style="text-align: center;">
         <p>读后有收获可以支付宝请作者喝咖啡</p>
         <img src="/img/zhifubao.jpg" style="width:150px; height:150px;">
+        <p>支付宝打赏</p>
       </div>
     </div>
     '

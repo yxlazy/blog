@@ -297,5 +297,3 @@ git revert HEAD
 [4] https://www.cnblogs.com/hujunzheng/p/9732936.html
 
 [5] https://www.ruanyifeng.com/blog/2020/04/git-cherry-pick.html
-
-###
