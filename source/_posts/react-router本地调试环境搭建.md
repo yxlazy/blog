@@ -3,7 +3,7 @@ title: react-router 简单介绍与本地调试环境搭建
 date: 2021-09-29 23:23:01
 tags: [react, react-router, 源码解析]
 category: react-router
-description: 
+description: react-router是react标配的路由组件，现在为了能更好的研究它，我们先搭建一个本地调试环境用于后续的研究吧
 ---
 
 ## 前言
