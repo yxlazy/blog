@@ -1,5 +1,5 @@
 ---
-title: Context
+title: React Context
 date: 2021-09-23 22:40:26
 tags: [react, javascript]
 category: react
