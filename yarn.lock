@@ -746,7 +746,7 @@ has@^1.0.3:
 
 hexo-asset-image-fixed@^0.0.6:
   version "0.0.6"
-  resolved "https://registry.npmjs.org/hexo-asset-image-fixed/-/hexo-asset-image-fixed-0.0.6.tgz#7bdf4f2dba06b6b5eee277692bd6125f7a15ff04"
+  resolved "https://registry.yarnpkg.com/hexo-asset-image-fixed/-/hexo-asset-image-fixed-0.0.6.tgz#7bdf4f2dba06b6b5eee277692bd6125f7a15ff04"
   integrity sha512-3++aD6olFfHtP5edOqUWrXmc8Al9IkpYhKxOL3EYluXHK3IzoI02VXKH8wM833TZUt4PK+pSZfpHU9c4y5ma2Q==
   dependencies:
     cheerio "^1.0.0-rc.3"
