@@ -3,6 +3,7 @@ title: 使用husky+lint-staged规范代码格式
 date: 2022-03-03 10:21:58
 tags: [代码规范]
 category: other
+description: 拒绝💩一样的代码提交到git仓库...
 ---
 
 1. 安装`eslint, prettier`和`lint-staged`
