@@ -25,6 +25,19 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - name: Validation code style
+        
+    - name: Setup Hexo
+      env:
+        ACTION_DEPLOY_KEY: ${{ secrets.HEXO_SECRET }}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+        chmod 700 ~/.ssh
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        git config --global user.email "1977735808@qq.com"
+        git config --global user.name "li"
+        npm install
+
+    - name: Publish
       run: npm run publish
