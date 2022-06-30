@@ -47,6 +47,9 @@ description: 如何使用FormData实现文件上传呢？单文件上传和多�
     }
   </script>
 ```
+> 注：上传文件是不需要我们自己设置`Content-Type`头的，设置了反而无法上传，切记，切记，切记！！！
+> 
+>详细的可以查看这个issue: https://github.com/github/fetch/issues/505#issuecomment-293064470
 ### 多文件上传
 如果`FormData`的属性值中已经存在对应的属性值也不会被覆盖，而是会将这个新值添加到已有集合的后面
 ```html
