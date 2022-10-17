@@ -42,6 +42,8 @@ Sec-WebSocket-Accept: 4UCGeYLdUGEUaei+36wTyP60Mcg=
 ## 源码解读
 > 以下只列出了关键性代码
 
+### 握手
+
 `Server`类，用于创建一个`server`示例，同时在构造函数中做一些前置处理
 
 ```javascript
@@ -344,7 +346,7 @@ Connection.prototype.readHeaders = function (lines) {
 ```
 以上就完成了连接的握手处理
 
-## 数据解析
+### 数据解析
 
 `WebSocket` 以 `frame` 为单位传输数据, `frame` 是客户端和服务端数据传输的最小单元, 当一条消息过长时, 通信方可以将该消息拆分成多个 `frame` 发送, 接收方收到以后重新拼接、解码从而还原出完整的消息, 在 `WebSocket` 中, `frame` 有多种类型, `frame` 的类型由 `frame` 头部的 `Opcode` 字段指示
 
@@ -518,7 +520,7 @@ Connection.prototype.processFrame = function (fin, opcode, payload) {
 }
 ```
 
-## 数据发送
+### 数据发送
 
 发送数据，需要创建与接收时一样的数据结构，包括`fin, opcode, mask, payload-length, mask-key`
 
