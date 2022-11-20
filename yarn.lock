@@ -667,10 +667,9 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hexo-asset-image@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-asset-image/-/hexo-asset-image-1.0.0.tgz#f229ad28b071a32b1d5b121f929a296e714fd24a"
-  integrity sha512-jkuUJNPRMH6v7HqzP2BAwEZavMzVxNWhl8jZl9BmFYB22/aq2+zixGIhV4vedI9cLPydjn9DfII41/MMXtzJTA==
+"hexo-asset-image@https://github.com/yxlazy/hexo-asset-image":
+  version "0.0.5"
+  resolved "https://github.com/yxlazy/hexo-asset-image#3c114cf0c0343ab28469635085b225fcae7fb9d3"
   dependencies:
     cheerio "^0.19.0"
     entities "^1.1.2"
