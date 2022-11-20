@@ -176,7 +176,7 @@ console.log('[Data]\t', data);
 
 🎉恭喜，到此为止本篇教程就已结束
 
-〉获取完整代码 https://github.com/yxlazy/puppeteer-crawl-page-example
+> 获取完整代码 https://github.com/yxlazy/puppeteer-crawl-page-example
 
 ## 总结
 现在我们来做个简单的总结，首先我们简单介绍了`Puppeteer`是什么，它是一个运行在`Node`环境下的浏览器，为我们提供了丰富的能力，例如为页面截图等，然后在这里我们通过介绍如何抓取页面的数据从而简单的感受了`Puppeteer`强大的功能之一
