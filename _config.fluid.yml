@@ -5,7 +5,7 @@
 
 #  自定义页面灰色配置
 # 详情查看 https://github.com/yxlazy/blog/blob/master/themes/fluid/source/js/grayscale.js
-grayscale: false
+grayscale: true
 
 # 用于浏览器标签的图标
 # Icon for browser tab
