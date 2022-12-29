@@ -1,3 +1,8 @@
+<!-- 谷歌广告 -->
+<% if (theme.googleAdSense){ %>
+  <%- js({ src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5780181181798489', crossorigin: 'anonymous', async: true }) %>
+<% } %>
+
 <!-- 灰色页面 -->
 <% if (theme.grayscale){ %>
   <%- js_ex(theme.static_prefix.internal_js, 'grayscale.js') %>

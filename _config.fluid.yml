@@ -7,6 +7,10 @@
 # 详情查看 https://github.com/yxlazy/blog/blob/master/themes/fluid/source/js/grayscale.js
 grayscale: false
 
+# 自定义谷歌广告配置
+#
+googleAdSense: true
+
 # 用于浏览器标签的图标
 # Icon for browser tab
 favicon: /img/avatar.jpg
