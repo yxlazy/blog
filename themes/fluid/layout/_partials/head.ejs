@@ -45,6 +45,12 @@ var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_
   <%- js_ex(theme.static_prefix.internal_js, 'color-schema.js') %>
 
   <%- inject_point('head') %>
-  <!-- 谷歌广告 -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5780181181798489" crossorigin="anonymous"></script>
+
+
+  <% var isIndexAndPostPage = page.published || (page.total >=0 && !page.archive && !page.category && !page.tag)%>
+
+  <% if (!!isIndexAndPostPage) { %>
+    <!-- 谷歌广告 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5780181181798489" crossorigin="anonymous"></script>
+  <% } %>
 </head>
